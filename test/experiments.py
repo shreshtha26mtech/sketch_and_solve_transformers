@@ -1,7 +1,7 @@
-import class_generation
-import importance_sampling
-import jl_lemma_sampling
-import leverage_scores
+import scripts.class_generation as class_generation
+import test.importance_sampling as importance_sampling
+import scripts.jl_lemma_sampling as jl_lemma_sampling
+import scripts.leverage_scores as leverage_scores
 import time
 import pandas as pd
 import numpy as np
